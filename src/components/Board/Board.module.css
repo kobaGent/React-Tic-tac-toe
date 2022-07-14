@@ -1,0 +1,33 @@
+.board {
+  width: 300px;
+  height: 300px;
+  background: red;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1,
+h2 {
+  color: rgb(255, 255, 255);
+}
+
+.restart {
+  width: 200px;
+  height: 50px;
+  margin: 20px;
+  background-color: #14a776;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.restart:hover {
+  background: #93d8c1;
+  transition: 0.3s all ease;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
